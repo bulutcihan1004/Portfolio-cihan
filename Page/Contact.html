@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Cihan Bulut</title>
+    <link rel="stylesheet" href="../Css/Contact.css">
+</head>
+<body>
+    <header id="haut" role="banner" aria-label="En-tête du site">
+        <h1>Portfolio de Cihan Bulut</h1>
+        <nav role="navigation" aria-label="Navigation principale">
+            <a href="../index.html" target="_top" rel="noopener">Accueil</a>
+                
+                
+                
+            <a href="Projet.html" target="_top" rel="noopener">Projet</a>
+                    
+            <a href="Parcours.html" target="_top" rel="noopener">Parcours</a>
+
+            <a href="Contact.html" target="_top" rel="noopener">Contact</a>
+
+            <a href="https://www.univ-littoral.fr/" target="_top" rel="noopener">ULCO</a>
+
+            
+            
+        </nav>
+    </header>
+    <main>
+        <form method="post">
+        <fieldset>
+        <legend>Entrez Vos Infos personelles :</legend>
+        <div>
+            <label for="name">Nom :</label>
+            <input type="text" id="name" placeholder="Ex: Cihan " maxlength="10" required>
+        </div>
+        <div>
+            <label for="name">Prénom :</label>
+            <input type="text" id="name" placeholder="Ex: Bulut" maxlength="10" required>
+        </div>
+        <div>
+            <label for="birthday">Date de naissance :</label>
+            <input type="date" id="birthday" min="2007-01-01" required>
+        </div>
+        <div>
+            <label>
+                <input type="radio" name="genre" value="H">
+                Homme
+            </label>
+            <label>
+                <input type="radio" name="genre" value="F">
+                Femme
+            </label>
+        </div>
+        <div>
+            <label for="pays">Votre pays d'origine</label>
+            <select name="pays" id="pays" multiple size="9" required >
+                <option value="">--Choisir un pays--</option>
+
+                <optgroup label="Europe">
+                    <option value="Fr">France</option>
+                    <option value="En">Anglais</option>
+                </optgroup>
+                <optgroup label="Afrique">
+                    <option value="Ma">Maroc</option>
+                    <option value="Sé">Sénégale</option>
+                </optgroup>
+                <optgroup label="Asie">
+                    <option value="Tr">Turquie</option>
+                </optgroup>
+            </select>
+        </div>
+
+    </fieldset>
+    <fieldset>
+        <legend>VoS Info utilisateur :</legend>
+        <div>
+            <label for="nom d'utilisateur">Pseudo :</label>
+            <input type="text" id="nom d'utilisateur">
+        </div>
+        <div>
+            <label for="email">Entrez votre Email :</label>
+            <input type="email" id="email" name="email" placeholder="Ex: nomprénom@gmail.com" required>
+        </div>
+         <div>
+            <label for="pass">Mot de Passe :</label>
+            <input type="password" id="password" name="password" minlength="5" maxlength="10">
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Observation générale</legend>
+        <label for="message">
+            <textarea type="text" id="message" name="message"></textarea>
+        </label>
+
+    </fieldset>
+
+    <div>
+        <button type="submit">Validez</button>
+        <button type="reset">Effacer</button>
+    </div>
+    </form>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="social">
+                <a href="#" target="_blank" class="social-icon"><img src="https://img.freepik.com/vecteurs-premium/icone-snapchat-insigne-moderne_578229-160.jpg" width="130" height="130"></a>
+                <a href="#" target="_blank" class="social-icon"><img src="https://logo-marque.com/wp-content/uploads/2020/04/Instagram-icon-Logo-2016-Pr%C3%A9sent.jpg" width="130" height="130"></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
